@@ -43,7 +43,7 @@ Corosync - программный продукт, позволяющий реа�
 ![3-1](https://github.com/SemkinVA/10.4-HW/blob/main/3-1.png)
 
 Конфигурация Nod1
-
+```
 pid file = /var/run/rsyncd.pid
 log file = /var/log/rsyncd.log
 transfer logging = true
@@ -56,7 +56,7 @@ list = yes
 comment = Data backup Dir!!!
 auth users = backup
 secrets file = /etc/rsyncd.scrt
-
+```
 
 ***
 
